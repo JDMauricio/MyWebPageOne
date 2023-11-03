@@ -4,6 +4,25 @@
 
 
 <!DOCTYPE html>
+
+<style>
+    body {
+        background-image: url('https://i1.wp.com/i.pinimg.com/originals/64/b7/af/64b7afe6cec4df18b52a2aa8667bec47.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+
+
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
 <html lang="en">
 
 <head>
@@ -17,8 +36,8 @@
         }
 
         .hero-section {
-            background-color: #900C3F;
-            color: #FFC300;
+            background-color: #000000;
+            color: #ffffff;
             text-align: center;
             padding: 100px 0;
         }
@@ -59,38 +78,121 @@
 <body>
 
     <div class="hero-section">
-        <h1>WELCOME TO MY CURIOUS USER</h1>
-        <P>Mauricio</P>
+        <h1>My Profile</h1>
+        <P>Juan Daniel A. Mauricio</P>
+
     </div>
 
-    <div class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <i class="feature-icon fas fa-code"></i>
-                    <h2 class="feature-heading">Powerful Framework</h2>
-                    <p>ASP.NET Core provides a robust and flexible framework for building modern web applications.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="feature-icon fas fa-cogs"></i>
-                    <h2 class="feature-heading">Versatile</h2>
-                    <p>Build web apps, APIs, and microservices with ASP.NET Core, tailored to your specific needs.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="feature-icon fas fa-mobile-alt"></i>
-                    <h2 class="feature-heading">Mobile Friendly</h2>
-                    <p>Create responsive and mobile-friendly applications that work seamlessly on any device.</p>
-                </div>
-            </div>
+    <hr>
+    <h2 class="w3-center">My Info</h2>
+    
+        <div class="w3-bar w3-theme">
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'London')">Basic Information</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')">School</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')">Hobby</button>
+        </div>
+
+        <div id="London" class="w3-container city w3-animate-opacity">
+            <h2>Basic info</h2>
+            <p>I am Juan Daniel A. Mauricio</p>
+            <p>I am 21 years old</p>
+            <p>i live in Muntinlupa City</p>
+            
+        </div>
+
+        <div id="Paris" class="w3-container city w3-animate-opacity">
+            <h2>School</h2>
+            <p>I am currently taking a bachelors degree in computer science in Asia Pacific College</p>
+            
+        </div>
+
+        <div id="Tokyo" class="w3-container city w3-animate-opacity">
+            <h2>Hobbies</h2>
+            <p>I love playing games and watching Breaking Bad</p>
         </div>
     </div>
+
+    <script>
+        // Side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "100%";
+            x.style.fontSize = "40px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Tabs
+        function openCity(evt, cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            var activebtn = document.getElementsByClassName("testbtn");
+            for (i = 0; i < x.length; i++) {
+                activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " w3-dark-grey";
+        }
+
+        var mybtn = document.getElementsByClassName("testbtn")[0];
+        mybtn.click();
+
+        // Accordions
+        function myAccFunc(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        // Slideshows
+        var slideIndex = 1;
+
+        function plusDivs(n) {
+            slideIndex = slideIndex + n;
+            showDivs(slideIndex);
+        }
+
+        function showDivs(n) {
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+        showDivs(1);
+
+        // Progress Bars
+        function move() {
+            var elem = document.getElementById("myBar");
+            var width = 5;
+            var id = setInterval(frame, 10);
+            function frame() {
+                if (width == 100) {
+                    clearInterval(id);
+                } else {
+                    width++;
+                    elem.style.width = width + '%';
+                    elem.innerHTML = width * 1 + '%';
+                }
+            }
+        }
+    </script>
 
 </body>
 
 </html>
-=======
-<div class="text-center">
-    <h1 class="display-4">Helloo!!</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+
 

@@ -9,49 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = webapp
 build_property.RootNamespace = webapp
-build_property.ProjectDir = E:\NewWebbAppOne\webapp\
+build_property.ProjectDir = E:\OfficialWebOnwe\MyWebPageOne\webapp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\NewWebbAppOne\webapp
+build_property.MSBuildProjectDirectory = E:\OfficialWebOnwe\MyWebPageOne\webapp
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/NewWebbAppOne/webapp/Views/Account/SignUp.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/Account/Users.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Account/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/Home/Index.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/Home/Privacy.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/Page/Index.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Page/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/Shared/Error.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/_ViewImports.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/_ViewStart.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/NewWebbAppOne/webapp/Views/Shared/_Layout.cshtml]
+[E:/OfficialWebOnwe/MyWebPageOne/webapp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j4i5us2apt
